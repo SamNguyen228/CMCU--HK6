@@ -1,0 +1,2 @@
+San pham 1: Ten: Chocolate, Ma so: 1
+San pham 2: Ten: Milk, Ma so: 2
