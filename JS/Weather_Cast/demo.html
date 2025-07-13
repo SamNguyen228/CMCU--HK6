@@ -1,0 +1,85 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Weather App
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <link href="/Weather_Cast/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Weather App
+   </h1>
+   <form aria-label="Search weather by city name" autocomplete="off" id="searchForm">
+    <input aria-label="City name" id="cityInput" placeholder="Enter city name..." required="" type="text"/>
+    <button aria-label="Search weather" type="submit">
+     <i class="fas fa-search">
+     </i>
+    </button>
+   </form>
+  </header>
+  <main aria-atomic="true" aria-live="polite" id="weatherInfo">
+   <div class="top-row">
+    <img alt="Weather condition icon showing sunny weather with a bright sun and clear sky" height="80" id="weatherIcon" src="https://storage.googleapis.com/a1aa/image/b8f1c93f-8079-482a-bdef-288baf928184.jpg" width="80"/>
+    <div class="city-desc">
+     <h2 id="cityName">
+     </h2>
+     <p id="weatherDescription">
+     </p>
+    </div>
+   </div>
+   <div class="temp-row">
+    <span id="temperature">
+     --°C
+    </span>
+    <span class="feels-like" id="feelsLike">
+    </span>
+   </div>
+   <div class="stats-row">
+    <div>
+     <i class="fas fa-tint">
+     </i>
+     <p class="value" id="humidity">
+      --%
+     </p>
+     <p class="label">
+      Humidity
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-wind">
+     </i>
+     <p class="value" id="windSpeed">
+      -- m/s
+     </p>
+     <p class="label">
+      Wind
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-cloud-sun-rain">
+     </i>
+     <p class="value" id="pressure">
+      -- hPa
+     </p>
+     <p class="label">
+      Pressure
+     </p>
+    </div>
+   </div>
+  </main>
+  <div aria-live="assertive" id="errorMessage" role="alert">
+  </div>
+  <footer>
+   Powered by OpenWeatherMap API
+   <i class="fas fa-cloud-sun">
+   </i>
+   
+  </footer>
+  <script src="/Weather_Cast/scripts.js"></script>
+ </body>
+</html>

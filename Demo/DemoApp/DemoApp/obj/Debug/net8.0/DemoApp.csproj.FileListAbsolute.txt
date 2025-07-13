@@ -1,0 +1,14 @@
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\bin\Debug\net8.0\DemoApp.exe
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\bin\Debug\net8.0\DemoApp.deps.json
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\bin\Debug\net8.0\DemoApp.runtimeconfig.json
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\bin\Debug\net8.0\DemoApp.dll
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\bin\Debug\net8.0\DemoApp.pdb
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.AssemblyInfoInputs.cache
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.AssemblyInfo.cs
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.csproj.CoreCompileInputs.cache
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.dll
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\refint\DemoApp.dll
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.pdb
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\DemoApp.genruntimeconfig.cache
+D:\CMCUNI\CMCU - HK6\Demo\DemoApp\DemoApp\obj\Debug\net8.0\ref\DemoApp.dll

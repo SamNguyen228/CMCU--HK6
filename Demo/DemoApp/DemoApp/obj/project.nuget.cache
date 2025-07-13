@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bSP6vMkjN7A=",
+  "success": true,
+  "projectFilePath": "D:\\CMCUNI\\CMCU - HK6\\Demo\\DemoApp\\DemoApp\\DemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fptshop\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}

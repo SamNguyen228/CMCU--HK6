@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8y2R7yJmlG8BcwZ8XeYj1YioavB-oeqKv-g&s" type="image/x-icon" />
+
+</head>
+<body>
+  <header>
+    <h1>Weather App</h1>
+    <form id="searchForm" aria-label="Search weather by city name" autocomplete="off">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter city name..."
+        aria-label="City name"
+        required
+      />
+      <button type="submit" aria-label="Search weather">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </header>
+
+  <main id="weatherInfo" aria-live="polite" aria-atomic="true">
+    <section class="top-row">
+      <img
+        id="weatherIcon"
+        src="https://storage.googleapis.com/a1aa/image/b8f1c93f-8079-482a-bdef-288baf928184.jpg"
+        alt="Weather condition icon showing sunny weather with a bright sun and clear sky"
+        width="80"
+        height="80"
+      />
+      <div class="city-desc">
+        <h2 id="cityName"></h2>
+        <p id="weatherDescription"></p>
+      </div>
+    </section>
+
+    <section class="temp-row">
+      <span id="temperature">--°C</span>
+      <span class="feels-like" id="feelsLike"></span>
+    </section>
+
+    <section class="stats-row">
+      <div>
+        <i class="fas fa-tint"></i>
+        <p class="value" id="humidity">--%</p>
+        <p class="label">Humidity</p>
+      </div>
+      <div>
+        <i class="fas fa-wind"></i>
+        <p class="value" id="windSpeed">-- m/s</p>
+        <p class="label">Wind</p>
+      </div>
+      <div>
+        <i class="fas fa-cloud-sun-rain"></i>
+        <p class="value" id="pressure">-- hPa</p>
+        <p class="label">Pressure</p>
+      </div>
+    </section>
+  </main>
+
+  <aside id="errorMessage" role="alert" aria-live="assertive"></aside>
+
+  <footer>
+    Powered by OpenWeatherMap API
+    <i class="fas fa-cloud-sun"></i>
+  </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
